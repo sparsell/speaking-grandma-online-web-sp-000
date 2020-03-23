@@ -1,12 +1,14 @@
 # Write a speak_to_grandma method.
-def speak_to_grandma
+def speak_to_grandma(message)
 # Whatever you say to grandma, she should respond with
+  puts "Say something to Grandma:"
   message = ""
-  if message == "I love you Grandma!"
+  message = gets.strip
+  if message == "Hi there."
 # HUH?! SPEAK UP, SONNY!
     puts "HUH? SPEAK UP, SONNY!"
 # unless you shout it (type in all capitals).
-  elsif message.upcase
+  elsif message == "HI THERE!"
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 # NO, NOT SINCE 1938!
