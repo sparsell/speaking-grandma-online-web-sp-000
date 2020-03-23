@@ -2,11 +2,11 @@
 def speak_to_grandma
 # Whatever you say to grandma, she should respond with
   message = ""
-  if message == "I love you Grandma"
+  if message == "I love you Grandma!"
 # HUH?! SPEAK UP, SONNY!
     puts "HUH? SPEAK UP, SONNY!"
 # unless you shout it (type in all capitals).
-  elsif message.uppercase
+  elsif message.upcase
 # If you shout, she can hear you (or at least she thinks so)
 # and yells back
 # NO, NOT SINCE 1938!
