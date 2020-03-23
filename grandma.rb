@@ -4,7 +4,9 @@ def speak_to_grandma(message)
   puts "Say something to Grandma:"
   message = ""
   message = gets.strip
-  if message == "Hi there."
+  if message message == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+
 # HUH?! SPEAK UP, SONNY!
     puts "HUH? SPEAK UP, SONNY!"
 # unless you shout it (type in all capitals).
@@ -14,8 +16,7 @@ def speak_to_grandma(message)
 # NO, NOT SINCE 1938!
     puts "NO, NOT SINCE 1938!"
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
-  else message == "I LOVE YOU GRANDMA!"
-    puts "I LOVE YOU TOO PUMPKIN!"
+  else
 # 'I LOVE YOU TOO PUMPKIN!'
   end
 
