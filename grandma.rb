@@ -8,7 +8,7 @@ def speak_to_grandma(message)
     return "HUH?! SPEAK UP, SONNY!"
   elsif message = message.downcase
     return "HUH?! SPEAK UP, SONNY!"
-  elsif message = message.upcase
+  elsif message == "WHAT DID YOU EAT TODAY?"
     return "NO, NOT SINCE 1938!"
   else 
     return "NO, NOT SINCE 1938!"
