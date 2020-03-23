@@ -2,8 +2,8 @@
 def speak_to_grandma(message)
 # Whatever you say to grandma, she should respond with
   puts "Say something to Grandma:"
-  message = ""
-  message = gets.strip
+  #message = ""
+  #message = gets.strip
   if message == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
 
