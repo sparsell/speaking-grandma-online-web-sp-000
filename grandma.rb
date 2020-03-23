@@ -12,7 +12,7 @@ def speak_to_grandma
 # NO, NOT SINCE 1938!
     puts "NO, NOT SINCE 1938!"
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
-  else "I LOVE YOU GRANDMA!"
+  else message == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
 # 'I LOVE YOU TOO PUMPKIN!'
   end
