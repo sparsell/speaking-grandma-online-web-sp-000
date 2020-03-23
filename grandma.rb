@@ -4,7 +4,7 @@ def speak_to_grandma(message)
   puts "Say something to Grandma:"
   message = ""
   message = gets.strip
-  if message message == "I LOVE YOU GRANDMA!"
+  if message == "I LOVE YOU GRANDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
 
 # HUH?! SPEAK UP, SONNY!
