@@ -22,7 +22,7 @@ def speak_to_grandma(message)
   elsif message == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
   elsif message == message.downcase
-    return "HUH?! SPEAK UP, SONNY!"
+    return "Hi!"
   elsif message == message.upcase
     return "NO, NOT SINCE 1938!"
   else message == message.upcase
